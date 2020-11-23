@@ -1,0 +1,50 @@
+{
+  "display": {
+    "title": "pumpkin-problem",
+    "description": "Out of the blue!",
+    "navmapThumbnail": "https://raw.githubusercontent.com/takJohn/navmap-thumbnails/master/pumpkin-problem.png",
+    "favicon": "favicon_asset"
+  },
+  "contact": {
+    "name": "author-name",
+    "email": ""
+  },
+  "owner": "",
+  "scene": {
+    "parcels": [
+      "89,16","90,16",
+      "89,15","90,15",
+      "89,14","90,14"
+    ],
+    "base": "89,14"
+  },
+  "communications": {
+    "type": "webrtc",
+    "signalling": "https://signalling-01.decentraland.org"
+  },
+  "policy": {
+    "contentRating": "E",
+    "fly": true,
+    "voiceEnabled": true,
+    "blacklist": []
+  },
+  "requiredPermissions": [],
+  "main": "bin/game.js",
+  "tags": [],
+  "spawnPoints": [
+    {
+      "name": "spawn1",
+      "default": true,
+      "position": {
+        "x": 16,
+        "y": 0,
+        "z": 4
+      },
+      "cameraTarget": {
+        "x": 8,
+        "y": 1,
+        "z": 8
+      }
+    }
+  ]
+}
